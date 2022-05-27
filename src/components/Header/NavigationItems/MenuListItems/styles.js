@@ -55,6 +55,7 @@ export const Li = styled.li`
 
     a {
         color: #747474;
+        transition: 0.3s;
     }
 
     img {
@@ -69,7 +70,8 @@ export const Li = styled.li`
         position: relative;
         transition: 0.3s;
 
-        :hover {
+        :hover,
+        a:hover {
             color: #181818;
         }
 
